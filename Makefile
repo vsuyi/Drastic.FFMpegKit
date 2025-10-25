@@ -216,5 +216,5 @@ build_min_gpl_android: copy_common_jars
 	cd src/Drastic.FFMpegKit.Android && dotnet pack -c Release -p:PackageID=Drastic.FFMpegKit.Min.GPL.Android -o ../../artifacts
 
 build_video_android: copy_common_jars
-	cp jars/x264x265/ffmpeg-kit-x264x265-$(VERSION).aar src/Vsuyi.FFMpegKit.Android/Jars/ffmpeg-kit.aar
+	cp jars/x264x265/ffmpeg-kit-x264x265-$(VERSION).aar src/Drastic.FFMpegKit.Android/Jars/ffmpeg-kit.aar
 	cd src/Drastic.FFMpegKit.Android && dotnet pack -c Release -p:PackageID=Drastic.FFMpegKit.Video.Android -o ../../artifacts
