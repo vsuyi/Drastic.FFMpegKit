@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net7.0-ios</TargetFrameworks>
+    <TargetFrameworks>net9.0-ios</TargetFrameworks>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
@@ -50,7 +50,7 @@
       <IsCxx>True</IsCxx>
     </NativeReference>
   </ItemGroup>
-   <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-macos'">
+   <ItemGroup Condition="'$(TargetFramework)' == 'net9.0-macos'">
     <NativeReference Include="libs\macos\ffmpegkit.framework">
       <Kind>Framework</Kind>
       <ForceLoad>True</ForceLoad>
@@ -87,7 +87,7 @@
       <IsCxx>True</IsCxx>
     </NativeReference>
   </ItemGroup>
-   <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-tvos'">
+   <ItemGroup Condition="'$(TargetFramework)' == 'net9.0-tvos'">
     <NativeReference Include="libs\tvos\ffmpegkit.framework">
       <Kind>Framework</Kind>
       <ForceLoad>True</ForceLoad>
