@@ -6,7 +6,7 @@
 		<Company>Drastic Actions</Company>
 		<Copyright>Copyright (C) Drastic Actions</Copyright>
 		<IsPackable>false</IsPackable>
-		<Version>5.1.2</Version>
+		<Version>6.0.1</Version>
         <Authors>$(Company)</Authors>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>favicon.png</PackageIcon>
